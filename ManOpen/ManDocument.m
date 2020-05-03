@@ -631,7 +631,7 @@ static NSCursor *linkCursor = nil;
     NSFont *font = ManFont();
     int currPage = [[NSPrintOperation currentOperation] currentPage];
     NSString *str = [NSString stringWithFormat:@"%d", currPage];
-    float strWidth = [font widthOfString:str];
+    float strWidth = [[font widthOfString:str] floatValue];
     NSPoint point = NSMakePoint(size.width/2 - strWidth/2, 20.0);
 
 #ifdef MACOS_X

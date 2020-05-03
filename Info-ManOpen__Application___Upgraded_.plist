@@ -64,7 +64,7 @@
 	<key>CFBundleIconFile</key>
 	<string>ManOpen.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.clindberg.ManOpen</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
